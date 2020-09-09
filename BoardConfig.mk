@@ -39,3 +39,9 @@ BOARD_PAGE_SIZE := 0x4096
 
 BOARD_SEPOLICY_DIRS += \
     device/motorola/umts_spyder/sepolicy
+
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_ABI=armeabi-v7a
+BOARD_HARDWARE_CLASS=hardware/lineage/lineagehw
+BOARD_KERNEL_IMAGE_NAME=zImage
